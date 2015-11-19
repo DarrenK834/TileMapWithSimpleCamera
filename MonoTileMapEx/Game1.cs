@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using AnimatedSprite;
 
 namespace MonoTileMapEx
 {
@@ -75,6 +76,7 @@ namespace MonoTileMapEx
         TileManager _tManager;
         private byte pulseColor;
         Camera cam;
+        AnimatedSprite playerWithWeapon;
 
         public Game1()
         {
